@@ -7,12 +7,12 @@ This repository showcases two robust Excel-based financial models:
 Built entirely in Excel, these tools combine statistical logic with scenario-based analysis to quantify portfolio risk and performance potential — with no VBA or plugins required.
 
 Models Included:
-1. Monte Carlo Retirement Simulation
+1. Monte Carlo InvestmentRetirement Simulation
 - Simulates 40-year growth of a portfolio invested in the S&P 500
 - Based on: $6,000 annual contribution, 7% return, 15% volatility
 - Outputs include: median, mean, 5th–95th percentile forecasts
 - 10,000 unique return paths generated using `NORM.INV(RAND())`
-View: `Monte Carlo Simulation.xlsx` and `MONTE CARLO NOTES.docx`
+View: `Monte Carlo Investment Simulation.xlsx` and `MONTE CARLO NOTES.docx`
 
 2. Value at Risk (VaR) Model – Monte Carlo & Historical
 - Portfolio: $100,000 with 60% SPY and 40% BND
